@@ -1,0 +1,33 @@
+
+color: 
+bg: #F0FFF0;
+orange:#FD511A;
+black:#000000;
+green: #21B573;
+white: #ffffff;
+
+
+ff:
+pop 400, 700, 300
+rob: 400
+
+size
+align
+spacing
+order
+
+header==============
+xxl-xl-lg       md          sm-col
+
+15px            15          5
+
+banner==============
+padding 65      65
+font
+
+h1 48           40          
+
+
+
+
+

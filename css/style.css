@@ -1,0 +1,131 @@
+/*font links*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&family=Roboto&display=swap');
+:root{
+--orange: #FD511A;
+--balck:#000000;
+--green: #21B573;
+--white: #ffffff;
+--bg:#F0FFF0;
+
+--pop:"Poppins", serif;
+--rob:"Roboto", serif;
+
+}
+/*common css*/
+body{
+    font-family: var(--pop);
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--balck);
+}
+/* header start */
+header{
+    padding:15px 0;
+    background-color: var(--bg);
+}
+.cnav{}
+.logo{}
+.ntog:focus{
+    box-shadow: none;
+}
+.menu{}
+.menu ul li a{
+    color: var(--balck) !important;
+    padding: 0 20px !important;
+}
+.menu ul li a:hover{
+    color: var(--orange)!important;
+}
+
+.btn_cm{
+    padding: 12px 28px;
+    background-color: var(--green);
+    font-family: var(--rob);
+    color:var(--white);
+    border: none; 
+    border-radius: 33px;   
+/* 
+width: 105px;
+height: 45px;
+background-color: var(--green);
+display: flex;
+align-items: center;
+justify-content: center; */
+
+}
+.btn_sign{
+    margin-left: 10px;
+    padding: 12px 28px;
+}
+.btn_cm:hover{
+    background-color: var(--orange);
+    color:var(--white);   
+}
+.btn_cm:active{
+    background-color: var(--orange) !important;
+    color:var(--white) !important;   
+}
+
+/* header end */
+
+/* banner start */
+.banner{
+    padding: 0 0 65px;
+    background-color: var(--bg);
+}
+.b_text{}
+
+.b_p1{
+    color: var(--orange);
+}
+.b_h1{
+    margin:10px 40px 20px 0;
+    font-size: 48px;
+    font-weight: 700;
+    color: var(--balck);
+    line-height: 70px;
+}
+.b_h1 span{
+    color:var(--green);
+}
+.b_p2{
+    line-height:36px;
+}
+.btn_b{
+    margin:15px 0 0;
+    padding:12px 36px;
+}
+.b_img{}
+
+/* banner end */
+/* feature start */
+.feature{
+    padding: 0 0 100px;   
+}
+.f_item{
+    margin:40px 0  0;
+    padding: 55px 0 50px;
+    background-color: var(--bg); 
+    border-radius: 10px;  
+    transition: .33s linear; 
+}
+.f_img{
+    width: 66px;
+    height:85px; 
+}
+.f_h2{
+    margin:22px 0 0;
+    font-size:24px;
+    font-weight: 500;
+    line-height: 36px;
+
+} 
+.f_p1{}
+
+.f_item:hover{
+background-color: var(--white);
+box-shadow: 0px 20px 40px 0px #0000001A;
+}
+
+/* feture end */

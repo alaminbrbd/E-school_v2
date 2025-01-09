@@ -32,6 +32,18 @@
     margin-bottom: 30px;
     padding:0;
   }  
+  /* footer top start */
+  .footer_top{
+    text-align: center;
+    padding: 55px 0 20px;
+  }
+    .ft_detail{
+    margin-bottom:35px;
+    padding-right:0;
+  }
+  .ft_links{
+    margin-bottom:35px;
+  }
   }
 
 /* Small devices (landscape phones, 576px and up)*/
@@ -67,6 +79,15 @@
     margin-bottom: 30px;
     padding:0 50px;
   }  
+  /* footer top start */
+  .footer_top{
+    text-align: center;
+  }
+  .ft_detail{
+    margin-bottom:35px;
+    padding-right:70px;
+    padding-left:70px
+  }
   }
 
 /* Medium devices (tablets, 768px and up)*/
@@ -94,6 +115,15 @@
     margin-bottom: 30px;
     padding:0 50px;
   }
+  /* footer top start */
+  .footer_top{
+    text-align: center;
+  }
+  .ft_detail{
+    margin-bottom:35px;
+    padding-right:80px;
+    padding-left:80px
+  }
 }
 
 /* Large devices (desktops, 992px and up)*/
@@ -107,5 +137,9 @@
   /* banner start */
   .b_h1{
     margin:10px 106px 20px 0;
+}
+/* footer top start */
+.ft_detail{
+  padding-right: 130px;
 }
   }
